@@ -86,7 +86,7 @@
     <scm>
         <connection>scm:git:git@github.com:influxdata/influxdb-client-java.git</connection>
         <developerConnection>scm:git:git@github.com:influxdata/influxdb-client-java.git</developerConnection>
-        <url>http://github.com/influxdata/influxdb-client-java/tree/master</url>
+        <url>https://github.com/influxdata/influxdb-client-java/tree/master</url>
       <tag>HEAD</tag>
   </scm>
 
@@ -122,8 +122,8 @@
         <plugin.scala.version>3.4.4</plugin.scala.version>
 
         <kotlin.version>1.6.10</kotlin.version>
-        <karaf.version>4.2.11</karaf.version>
-        <junit-jupiter.version>5.7.2</junit-jupiter.version>
+        <karaf.version>4.3.6</karaf.version>
+        <junit-jupiter.version>5.8.2</junit-jupiter.version>
     </properties>
 
     <dependencies>
@@ -402,7 +402,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>3.1.2</version>
                 <configuration>
                     <dependencyDetailsEnabled>true</dependencyDetailsEnabled>
                 </configuration>
@@ -602,7 +602,7 @@
             <dependency>
                 <groupId>org.junit.platform</groupId>
                 <artifactId>junit-platform-runner</artifactId>
-                <version>1.7.2</version>
+                <version>1.8.2</version>
             </dependency>
 
             <dependency>
@@ -614,13 +614,13 @@
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
-                <version>3.12.4</version>
+                <version>4.3.1</version>
             </dependency>
 
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-junit-jupiter</artifactId>
-                <version>3.11.2</version>
+                <version>4.3.1</version>
             </dependency>
 
             <dependency>
